@@ -1,0 +1,726 @@
+:root {
+  --color1: #f1A600;
+  --color2: #1F1D2C;
+  --color3: #242635;
+  --color4: #E5E5E5;
+  --color5: #FFFFFF;
+  --titulos: 150px, --color5;
+
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #1F1D2C;
+  font-family: "open sans";
+
+}
+
+img {
+  vertical-align: top;
+  background-color: #1F1D2C;
+
+}
+
+svg {
+  vertical-align: top;
+}
+
+header {
+  width: 100%;
+  height: 600px;
+  background-image: url(imagenperfil.jpeg), url(Rectangle\ 33-1.png);
+
+
+  background-repeat: no-repeat;
+  background-position: 70% 100%, top right;
+
+  background-size: 25%, 50% 100%;
+
+
+
+
+}
+
+.contener--nav {
+
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1000px;
+  height: inherit;
+  overflow: hidden;
+
+
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  box-shadow: 0 0 10px 0 coral;
+
+
+}
+
+.nav1 {
+
+  background: #1F1D2C;
+  height: 80px;
+  color: #FFF;
+
+}
+
+.nav2 {
+  background-color: #242635;
+  height: 100px;
+  color: #FFF;
+
+}
+
+nav .enlaces a {
+
+  display: inline-block;
+  padding: 5px 0;
+  margin-right: 17px;
+  font-size: 17px;
+  font-weight: 300;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  color: inherit;
+
+}
+
+.logo,
+.logo img {
+  height: 80px;
+}
+
+nav .enlaces a:hover {
+  border-bottom: 1px solid coral;
+  transition: 0.6s;
+
+}
+
+.icono {
+
+  display: none;
+  font-size: 24px;
+  padding: 23.5px 20px;
+  color: #FFF;
+
+}
+
+.textos {
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 8% 0% 0% 10%;
+
+  color: #FFF;
+  overflow: hidden;
+
+
+
+}
+
+.logos {
+
+
+
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 10%;
+
+  object-fit: cover;
+  margin-top: 15px;
+
+
+
+}
+
+.textos span {
+
+  color: #f1A600;
+}
+
+.segundoparrafo {
+  width: 70%;
+  text-align: justify;
+
+}
+
+.tercerparrafo {
+  width: 30%;
+
+}
+
+.cadalogo {
+  width: 6%;
+}
+
+.logos img {
+
+  width: 100%;
+  height: 100%;
+}
+
+.cadalogo {
+
+  font-size: 24px;
+  padding: 13.5px 10px;
+
+
+}
+
+.textos>h1 {
+  font-size: 80px;
+  padding: 0% 0% 3% 0%
+  ;
+}
+
+.textos>h2 {
+  width: 45%;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 0% 0% 3% 0%
+}
+
+.contenedor {
+
+  margin: auto;
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+  text-align: center;
+  overflow: hidden;
+  background-color: #1F1D2C;
+
+}
+
+.contenedor h3 {
+  font-size: 33px;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+.contenedor h4 {
+  font-size: 22px;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+
+.contenedor h5 {
+  font-size: 15px;
+  color: #FFF;
+  margin-bottom: 5px;
+
+}
+
+.contenedor h6 {
+  font-size: 11px;
+  color: #FFF;
+  margin-bottom: 5px;
+
+}
+
+.contenedor p {
+  font-size: 19px;
+  font-weight: 300;
+  color: #FFF;
+
+}
+
+.caja-experiencia svg {
+  filter: invert(20%)
+}
+
+
+.after::after {
+  content: "";
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  width: 100 px;
+  height: 5px;
+
+
+}
+
+.card {
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.content-card {
+  width: 50%;
+
+  overflow: hidden;
+  height: 300px;
+
+
+}
+
+.people {
+
+  height: 80%;
+  background-color: #242635;
+
+}
+
+
+.content-card svg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-color: #242635;
+
+
+}
+
+.experiencia {
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  object-fit: cover;
+  margin: 15px;
+
+}
+
+.svg {
+
+  padding: 20px 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+  margin: auto;
+
+  overflow: hidden;
+
+
+}
+
+.content-info {
+
+  width: 80%;
+  margin: auto;
+  text-align: left;
+
+  overflow: hidden;
+  padding: 20px 0;
+
+
+}
+
+.content-año {
+
+  overflow: hidden;
+  padding: 50px 0;
+  text-align: left;
+  margin: auto;
+
+
+}
+
+.contenedor footer {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  width: 100%;
+
+
+
+}
+
+
+
+.about {
+
+  background-color: #242635;
+}
+
+#Acercademi {
+  background-color: #242635;
+}
+
+
+
+
+.portafolios {
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+}
+
+
+#port1 {
+
+  justify-items: left;
+ 
+  text-align: left;
+  margin-right: 5%;
+}
+
+#port1 .contenido-portafolio{
+ 
+
+  background-image: url(cuadronaranja.png);
+  background-repeat: no-repeat;
+  background-size: 39% 80%;
+  background-position: 8% 0%;
+  
+  
+}
+#port1 .imagenesPortafolio {
+  margin-left: 5%;
+
+
+}
+
+
+
+
+
+
+
+#port1 h5 {
+
+  margin-left: 2%;
+}
+
+
+#port2 {
+
+  justify-items: right;
+  
+  text-align: right;
+  margin-right: 5%;
+}
+
+#port2 .contenido-portafolio{
+ 
+  background-image: url(Rectangle\ 33-1.png);
+  background-repeat: no-repeat;
+  background-size: 39% 80%;
+  background-position: 98% 0%;
+
+
+}
+
+#port2 imagenesPortafolio {
+  margin-right: 8%;
+
+
+}
+
+#port2 h5 {
+
+  margin-right: 23%;
+}
+
+#port3 {
+
+  justify-items: left;
+
+  text-align: left;
+  margin-right: 5%;
+}
+#port3 .contenido-portafolio{
+ 
+
+  background-image: url(cuadronaranja.png);
+  background-repeat: no-repeat;
+  background-size: 39% 80%;
+  background-position: 8% 0%;
+  
+  
+}
+
+#port3 .imagenesPortafolio {
+  margin-left: 5%;
+
+
+}
+
+#port3 h5 {
+
+  margin-left: 2%;
+}
+
+.caja-portafolio {
+
+ 
+
+
+
+
+
+}
+
+.imagenesPortafolio {
+  font-size: 24px;
+  padding: 23.5px 20px;
+
+}
+
+.caja-portafolio img {
+  width: 38%;
+  height: 38%;
+
+
+
+}
+
+#contactos {
+  background-color: #242635;
+}
+
+.mail {
+  width: 25%;
+  height: 25%;
+}
+
+
+
+
+
+
+.texto-portafolio {
+
+  height: 20%;
+  width: 100%;
+
+
+}
+
+
+#skills {
+
+  background-image: url(Rectangle\ 33-1.png);
+
+
+  background-repeat: no-repeat;
+  background-position: top left;
+
+  background-size: 40% 100%;
+
+}
+
+.informacion {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  object-fit: cover;
+  margin: 5px 1%;
+}
+
+.content-nombres {
+  overflow: hidden;
+  padding: 35px 0;
+  text-align: left;
+  margin: auto;
+}
+
+.content-porcentaje {
+  overflow: hidden;
+  padding: 25px 0;
+  text-align: right;
+  margin: auto;
+  width: 100px;
+  margin-right: 49px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.content-porcentaje h5 {
+
+  font-size: 31px;
+  color: #f1A600;
+  margin-bottom: 5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.habilidades h3 {
+
+  text-align: start;
+  margin-left: 31%;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* preload */
+
+.hidden {
+  overflow: hidden;
+}
+
+.centrado {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: #dfc;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+
+  50%,
+  100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+
+
+
+@media screen and (max-width: 700px) {
+
+  header {
+    
+    height: 520px;
+  
+    background-repeat: no-repeat;
+    background-position: 90% 40%, top right;
+  
+    background-size: 42%, 50% 50%;
+  
+  
+  
+  
+  }
+
+  .nav2 {
+    color: #242635;
+  }
+
+  .icono {
+    display: block;
+    cursor: pointer;
+  }
+
+  .enlaces {
+    transition: 1s;
+    left: 0;
+    height: 100%;
+    position: fixed;
+    top: 80px;
+    background: #242635;
+    width: 0;
+    overflow: hidden;
+    color: #E5E5E5;
+  }
+
+  .enlaces a {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+    background: #1F1D2C;
+    color: #FFF;
+
+  }
+
+  .textos h1 {
+    margin-top: 20%;
+
+    font-size: 40px;
+
+  }
+
+  .textos h2 {
+
+    font-size: 15px;
+    text-align: left;
+    margin-top: 5%;
+
+  }
+  #port2 h5 {
+
+    margin-right: 20%;
+  }
+
+  .cadalogo {
+
+    width: 15%;
+
+  }
+
+  .informacion {
+
+    flex-wrap: nowrap;
+
+  }
+
+  ;
+
+  .experiencia {
+
+    flex-wrap: nowrap;
+  }
+
+
+}
